@@ -1,6 +1,10 @@
 # Use the official Node.js image as the base image
 FROM node:18
 
+# expose port 8080 - localhost / 7963 - app
+EXPOSE 8080
+EXPOSE 7963
+
 # Set the working directory in the container
 WORKDIR /
 
