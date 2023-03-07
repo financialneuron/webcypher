@@ -1,0 +1,2 @@
+#!bin/bash
+#git add folder/*, git commit -m "<Message Here>" and git push origin master
